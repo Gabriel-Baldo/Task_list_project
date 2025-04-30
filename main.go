@@ -97,10 +97,9 @@ func main() {
 		case 4:
 			remover()
 			limparterminal()
-
-			if acao == 0 {
-				return
-			}
+		default:	
+			return
+		
 		}
 	}
 }
