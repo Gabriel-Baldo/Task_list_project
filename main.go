@@ -97,7 +97,7 @@ func main() {
 		case 4:
 			remover()
 			limparterminal()
-		default:	
+		case 0:	
 			return
 		
 		}
